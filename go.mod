@@ -1,4 +1,4 @@
-module github.com/fadhillahentino/eventstream-go
+module github.com/fadhillahentino/eventstream-go/v2
 
 go 1.13
 
