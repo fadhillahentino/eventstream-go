@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/AccelByte/eventstream-go-sdk/v2"
+	"github.com/fadhillahentino/eventstream-go"
 	"github.com/sirupsen/logrus"
 )
 
@@ -34,7 +34,7 @@ func main() {
 		WriteTimeout:     0,
 	}
 
-	prefix := "example"
+	prefix := "test"
 
 	client, err := eventstream.NewClient(prefix, "stdout", nil, config)
 	if err != nil {
